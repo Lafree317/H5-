@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5215774C1BCF4C7800488508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215774B1BCF4C7800488508 /* main.m */; };
+		5215774F1BCF4C7800488508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215774E1BCF4C7800488508 /* AppDelegate.m */; };
+		521577521BCF4C7800488508 /* H5__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 521577501BCF4C7800488508 /* H5__.xcdatamodeld */; };
+		521577551BCF4C7800488508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521577541BCF4C7800488508 /* ViewController.m */; };
+		521577581BCF4C7800488508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521577561BCF4C7800488508 /* Main.storyboard */; };
+		5215775A1BCF4C7800488508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521577591BCF4C7800488508 /* Images.xcassets */; };
+		5215775D1BCF4C7800488508 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5215775B1BCF4C7800488508 /* LaunchScreen.xib */; };
+		521577691BCF4C7800488508 /* H5__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521577681BCF4C7800488508 /* H5__Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521577631BCF4C7800488508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5215773E1BCF4C7800488508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521577451BCF4C7800488508;
+			remoteInfo = "H5游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521577461BCF4C7800488508 /* H5游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H5游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5215774A1BCF4C7800488508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5215774B1BCF4C7800488508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5215774D1BCF4C7800488508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5215774E1BCF4C7800488508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521577511BCF4C7800488508 /* H5__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = H5__.xcdatamodel; sourceTree = "<group>"; };
+		521577531BCF4C7800488508 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		521577541BCF4C7800488508 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		521577571BCF4C7800488508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521577591BCF4C7800488508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5215775C1BCF4C7800488508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		521577621BCF4C7800488508 /* H5游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H5游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521577671BCF4C7800488508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521577681BCF4C7800488508 /* H5__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = H5__Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521577431BCF4C7800488508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5215775F1BCF4C7800488508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5215773D1BCF4C7800488508 = {
+			isa = PBXGroup;
+			children = (
+				521577481BCF4C7800488508 /* H5游戏 */,
+				521577651BCF4C7800488508 /* H5游戏Tests */,
+				521577471BCF4C7800488508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521577471BCF4C7800488508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521577461BCF4C7800488508 /* H5游戏.app */,
+				521577621BCF4C7800488508 /* H5游戏Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521577481BCF4C7800488508 /* H5游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				5215774D1BCF4C7800488508 /* AppDelegate.h */,
+				5215774E1BCF4C7800488508 /* AppDelegate.m */,
+				521577531BCF4C7800488508 /* ViewController.h */,
+				521577541BCF4C7800488508 /* ViewController.m */,
+				521577561BCF4C7800488508 /* Main.storyboard */,
+				521577591BCF4C7800488508 /* Images.xcassets */,
+				5215775B1BCF4C7800488508 /* LaunchScreen.xib */,
+				521577501BCF4C7800488508 /* H5__.xcdatamodeld */,
+				521577491BCF4C7800488508 /* Supporting Files */,
+			);
+			path = "H5游戏";
+			sourceTree = "<group>";
+		};
+		521577491BCF4C7800488508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5215774A1BCF4C7800488508 /* Info.plist */,
+				5215774B1BCF4C7800488508 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521577651BCF4C7800488508 /* H5游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				521577681BCF4C7800488508 /* H5__Tests.m */,
+				521577661BCF4C7800488508 /* Supporting Files */,
+			);
+			path = "H5游戏Tests";
+			sourceTree = "<group>";
+		};
+		521577661BCF4C7800488508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521577671BCF4C7800488508 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521577451BCF4C7800488508 /* H5游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5215776C1BCF4C7800488508 /* Build configuration list for PBXNativeTarget "H5游戏" */;
+			buildPhases = (
+				521577421BCF4C7800488508 /* Sources */,
+				521577431BCF4C7800488508 /* Frameworks */,
+				521577441BCF4C7800488508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H5游戏";
+			productName = "H5游戏";
+			productReference = 521577461BCF4C7800488508 /* H5游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521577611BCF4C7800488508 /* H5游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5215776F1BCF4C7800488508 /* Build configuration list for PBXNativeTarget "H5游戏Tests" */;
+			buildPhases = (
+				5215775E1BCF4C7800488508 /* Sources */,
+				5215775F1BCF4C7800488508 /* Frameworks */,
+				521577601BCF4C7800488508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521577641BCF4C7800488508 /* PBXTargetDependency */,
+			);
+			name = "H5游戏Tests";
+			productName = "H5游戏Tests";
+			productReference = 521577621BCF4C7800488508 /* H5游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5215773E1BCF4C7800488508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = LafreeTream;
+				TargetAttributes = {
+					521577451BCF4C7800488508 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					521577611BCF4C7800488508 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 521577451BCF4C7800488508;
+					};
+				};
+			};
+			buildConfigurationList = 521577411BCF4C7800488508 /* Build configuration list for PBXProject "H5游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5215773D1BCF4C7800488508;
+			productRefGroup = 521577471BCF4C7800488508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521577451BCF4C7800488508 /* H5游戏 */,
+				521577611BCF4C7800488508 /* H5游戏Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521577441BCF4C7800488508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521577581BCF4C7800488508 /* Main.storyboard in Resources */,
+				5215775D1BCF4C7800488508 /* LaunchScreen.xib in Resources */,
+				5215775A1BCF4C7800488508 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521577601BCF4C7800488508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521577421BCF4C7800488508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521577521BCF4C7800488508 /* H5__.xcdatamodeld in Sources */,
+				5215774F1BCF4C7800488508 /* AppDelegate.m in Sources */,
+				521577551BCF4C7800488508 /* ViewController.m in Sources */,
+				5215774C1BCF4C7800488508 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5215775E1BCF4C7800488508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521577691BCF4C7800488508 /* H5__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521577641BCF4C7800488508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521577451BCF4C7800488508 /* H5游戏 */;
+			targetProxy = 521577631BCF4C7800488508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521577561BCF4C7800488508 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521577571BCF4C7800488508 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5215775B1BCF4C7800488508 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5215775C1BCF4C7800488508 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5215776A1BCF4C7800488508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5215776B1BCF4C7800488508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5215776D1BCF4C7800488508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "H5游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5215776E1BCF4C7800488508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "H5游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		521577701BCF4C7800488508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "H5游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H5游戏.app/H5游戏";
+			};
+			name = Debug;
+		};
+		521577711BCF4C7800488508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "H5游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/H5游戏.app/H5游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521577411BCF4C7800488508 /* Build configuration list for PBXProject "H5游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215776A1BCF4C7800488508 /* Debug */,
+				5215776B1BCF4C7800488508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5215776C1BCF4C7800488508 /* Build configuration list for PBXNativeTarget "H5游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215776D1BCF4C7800488508 /* Debug */,
+				5215776E1BCF4C7800488508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5215776F1BCF4C7800488508 /* Build configuration list for PBXNativeTarget "H5游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521577701BCF4C7800488508 /* Debug */,
+				521577711BCF4C7800488508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		521577501BCF4C7800488508 /* H5__.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				521577511BCF4C7800488508 /* H5__.xcdatamodel */,
+			);
+			currentVersion = 521577511BCF4C7800488508 /* H5__.xcdatamodel */;
+			path = H5__.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5215773E1BCF4C7800488508 /* Project object */;
+}
